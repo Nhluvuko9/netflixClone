@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+* {
+    font-size: 16px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.netflix-logo {
+    width: 148px;
+    height: 40px;
+    margin: 22px 164px 22px 148px;
+    color: rgb(229,9,20);
+}
+.sign-in-btn {
+    width: 76px;
+    height: 32px;
+    margin-right: 148px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(229,9,20);
+    color: white;
+    border: 0.67px solid rgb(229,9,20);
+    border-radius: 5px;
+}
+
+.top-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./assets/bg-image.jpg);
+    background-size: cover;     
+    background-position: center; 
+    height: 100vh;           
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    place-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    color: black;
+}
+
+.banner-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* z-index: 2; */
+    max-width: 800px;
+    color: white;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold 400; 
+    margin-bottom: 1rem;
+}
+
+.email-title {
+    font-size: 1rem;
+}
+
+.get-started-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.email {
+    width: 243px;
+    height: 56px;
+    padding: 20px 16px 20px;
+}
+.get-started-btn {
+    width: 180px;
+    height: 56px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(229,9,20);
+    color: white;
+}
+
+#middle-banner {
+    display: flex;
+}
+.curve-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+}
+.curved-border {
+    background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+    background-size: cover;     
+    background-position: center; 
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    border-bottom: none;
+    border: solid 0.25rem transparent;
+    height: 10px;
+    width: 100vw;
+}
+.curve-container {
+    background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+    background-size: cover;     
+    background-position: center; 
+    width: 100vw;
+    height: 100px;
+}
+
+h2 {
+    color: white;
+}
+
+.cards-1-section {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: flex-start;
+}
