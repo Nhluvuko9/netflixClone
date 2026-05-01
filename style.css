@@ -91,15 +91,21 @@ h3 {
     gap: 8px;
 }
 .email {
-    width: 243px;
+    width: 366.7px;
     height: 56px;
     padding: 20px 16px 20px;
+    background-color: #121111;
+    opacity: 0.9;
+    border: 1px solid #5e5e5e;
+    border-radius: 4px;
 }
 .get-started-btn {
-    width: 180px;
+    width: 213.25px;
     height: 56px;
+    font-size: 1.5rem;
+    font-weight: bold;
     border: none;
-    border-radius: 3px;
+    border-radius: 4px;
     background-color: rgb(229,9,20);
     color: white;
 }
@@ -132,17 +138,30 @@ h3 {
     background-size: cover;     
     background-position: center; 
     width: 100vw;
-    height: 100px;
+    height: 4.375rem;
 }
 
-h2 {
+.cards1-title > h2 {
+    display: flex;
+    flex-direction: column;
     color: white;
+    font-size: 1.5rem;
+    padding: 0px 148px;
+    background-color: rgb(0, 0, 0);
 }
 
 .cards-1-section {
-    margin-top: 200px;
+    background-color: rgb(0, 0, 0);
+    padding: 0px 148px;
     display: flex;
     flex-direction: row;
     position: relative;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.cards1 {
+    margin-top: 30px;
+    border-radius: 8px;
+
 }
